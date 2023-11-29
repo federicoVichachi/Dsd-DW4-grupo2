@@ -5,29 +5,29 @@ import Publicaciones from './components/Publicaciones'
 import Chat from './components/Chat'
 
 function App() {
-  const [publicaciones, setPublicaciones] = useState("seleccionado")
-  const [chat, setChat] = useState("no-seleccionado")
+  const [navPublicaciones, setNavPublicaciones] = useState("seleccionado")
+  const [navChat, setNavChat] = useState("no-seleccionado")
 
   return (
     <>
       <Header />
       <nav>
-        <button className={publicaciones} onClick={() => {
-          setPublicaciones("seleccionado") 
-          setChat("no-seleccionado")
+        <button className={navPublicaciones} onClick={() => {
+          setNavPublicaciones("seleccionado") 
+          setNavChat("no-seleccionado")
           }}>
           <h2>Publicaciones</h2>
         </button>
-        <button className={chat} onClick={() => {
-          setPublicaciones("no-seleccionado")
-          setChat("seleccionado")
+        <button className={navChat} onClick={() => {
+          setNavPublicaciones("no-seleccionado")
+          setNavChat("seleccionado")
           }}>
           <h2>Chat</h2>
         </button>
       </nav>
 
       <main>
-        { publicaciones == "seleccionado" ?
+        { navPublicaciones == "seleccionado" ?
           <Publicaciones />
           :
           <Chat />
