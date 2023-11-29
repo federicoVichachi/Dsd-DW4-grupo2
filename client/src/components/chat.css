@@ -1,0 +1,19 @@
+#chat {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#chat ul {
+    border: 3px solid black ;
+    padding-left: 15%;
+    padding-right: 15%;
+    list-style: none;
+    justify-self: left;
+}
+
+#chat-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
