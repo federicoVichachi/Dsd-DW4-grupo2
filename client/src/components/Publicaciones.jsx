@@ -13,7 +13,8 @@ function Publicaciones() {
                         <label>Descripción:</label><br></br>
                         <textarea placeholder="(Mensaje, redes, discapacidad, etc... )"></textarea><br></br><br></br>
                         <label>Imagen: </label><br></br>
-                        <input type="file" accept=".jpg, .png" required/>
+                        <input type="file" accept=".jpg, .png" required/><br></br><br></br>
+                        <button>Publicar</button>
                     </form>
                 </div>
             </div>
