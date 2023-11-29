@@ -1,0 +1,11 @@
+header{
+    width: 100%;
+    padding: 1%;
+    background-color: rgba(0, 102, 255, 0.74);
+    display: flex;
+    justify-content: space-around;
+}
+
+#img-header{
+    width: 10%;
+}
