@@ -1,0 +1,21 @@
+textarea {
+    width: 80%;
+    height: 100px;
+    resize: none;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+#form-publicaciones {
+    width: 40%;
+    border: 3px solid rgb(17, 17, 138);
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+h3, label, input, textarea {
+    margin-left: 1%;
+}
