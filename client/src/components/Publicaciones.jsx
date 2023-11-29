@@ -56,10 +56,10 @@ function Publicaciones() {
             </div><br></br>
             <div className="contenedor">
                 <h3>Publicaciones</h3>
-                <ul>
+                <ul id="publicaciones">
                     {publicaciones.map(publicacion =>(
                         <li key={publicacion.id}>
-                            <div>
+                            <div className="publicacion">
                                 <h5>{publicacion.nombre}</h5>
                                 <p>{publicacion.descripcion}</p>
                                 <img src={publicacion.imagen} />

@@ -19,3 +19,20 @@ textarea {
 h3, label, input, textarea {
     margin-left: 1%;
 }
+
+#publicaciones {
+    list-style: none;
+    width: 40%;
+}
+
+.publicacion {
+    border: 3px solid gray;
+}
+
+#publicaciones li {
+    margin-top: 20px;
+}
+
+.publicacion img {
+    width: 100%;
+}
